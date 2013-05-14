@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta charset="utf-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1"/>
+	<title>TUX BUS</title>
+	<link rel="stylesheet" href="estilos/estilo.css"/>
+	
+	
+</head>
+<body >
+	<script type="text/javascript" src="script/script.js"></script>
+<!--encabezado y menu -->
+	<section class="columna1">
+		<div id="header">
+
+			<img class="bus" src="imgs/bus.png" alt="logo"/>
+			<a href="index.html"><img class="eti" src="imgs/etiqueta.png" alt="tuxbus"/></a>
+			<a href="rutas.html"><img class="tari" src="imgs/rutas.png" alt="distros"/></a>
+
+		</div>
+		<nav class="menu">
+		
+			<ul>
+				<li><a href="index.html">Inicio</a></li>
+			
+				<li>Acerca de...
+					<ul>
+				
+						<li><a href="mision.html">Misi&oacute;n</a></li>
+
+						<li><a href="vision.html">Visi&oacute;n</a></li>
+
+						<li><a href="historia.html">Historia</a></li>
+					</ul>
+				
+				</li>
+
+				<li> Servicio
+
+					<ul>
+
+						<li><a href="horarios.html">Horarios</a></li>
+
+						<li><a href="rutas.html">Rutas</a></li>
+
+						<li><a href="tarifa.html">Tarifa</a></li>
+
+					</ul>
+
+
+
+				</li>
+
+					<li><a href="contacto.html">Contacto</a></li>
+
+					<li><a href="estadisticas.html">Estad&iacute;sticas</a></li>
+
+					<li><a href="login.html">Login</a></li>
+
+			</ul>
+
+		</nav>
+		
+	</section>
+	<!--contenido -->
+	<section class="columna2">
+		<img src="imgs/tarifa.png" class="bus1">
+		<br>
+		<table class="tabla">
+						<thead>
+							<tr>
+								<th class="t6">
+								</th>				
+								<th>
+									<form name="tarifa" action="#" method="post" autocomplete="off" id="tarifa">
+										<fieldset class="campos">
+											<legend>Lista de tarifas</legend><br/>
+											
+											<legend>Origen</legend>
+														<select  name="inicio" id="inicio">
+														<option value="--">--Seleccione una opción--</option>
+														<option value="debian" id="debian">debian</option>
+														<option value="lubuntu">Lubuntu</option>
+														<option value="mint">Mint</option>
+														<option value="opensuse">OpenSuse</option>
+														<option value="slax">Slax</option>
+														<option value="kubuntu">Kubuntu</option>
+														<option value="fedora">*Fedora*</option>
+														<option value="blacktrack">*BackTrack*</option>
+														<option value="puppy">Puppy</option>
+														<option value="arch">Arch</option>
+														<option value="mandriva">Mandriva</option>
+														<option value="gentoo">Gentoo</option>
+														<option value="mageia">Mageia</option>
+														<option value="ubuntu">*Ubuntu*</option>
+														<option value="slackware">Slackware</option>
+														<option value="beini">Beini</option>
+														<option value="trisquel">Trisquel</option>
+														<option value="ututo">Ututo</option>
+														<option value="redhat">*RedHat*</option>			
+														</select>
+														<br/><br/>			
+											<legend>Destino</legend>
+														<select name="destino" id="destino" >
+														<option value="--">--Seleccione una opción--</option>
+														<option value="debian">debian</option>
+														<option value="lubuntu" id="lubuntu">lubuntu</option>
+														<option value="mint">Mint</option>
+														<option value="opensuse">OpenSuse</option>
+														<option value="slax">Slax</option>
+														<option value="kubuntu">Kubuntu</option>
+														<option value="fedora">*Fedora*</option>
+														<option value="blacktrack">*BackTrack*</option>
+														<option value="puppy">Puppy</option>
+														<option value="arch">Arch</option>
+														<option value="mandriva">Mandriva</option>
+														<option value="gentoo">Gentoo</option>
+														<option value="mageia">Mageia</option>
+														<option value="ubuntu">*Ubuntu*</option>
+														<option value="slackware">Slackware</option>
+														<option value="beini">Beini</option>
+														<option value="trisquel">Trisquel</option>
+														<option value="ututo">Ututo</option>
+														<option value="redhat">*RedHat*</option>			
+														</select>
+														<br/><br/>
+										</fieldset>
+										
+										<input type="button" name="Button" value="Buscar" class="button" onClick="displayTarifa()" />
+										<input type="reset" name="Button1" value="Cancelar" class="button" >
+										
+									</form>
+								</th>
+							</tr>
+						</thead>
+					</table>
+		
+	</section>
+	<!--area de redes sociales -->
+	<section class="columna3">
+		
+		
+		<a class="twitter-timeline" width="300" height="500"  href="https://twitter.com/RubiksStore"  data-widget-id="323931606626729985">Tweets por @RubiksStore</a>
+		<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+		
+	</section>
+	<!--pie de pagina -->
+	<section class="columna4">
+		P&aacute;gina desarrollada por estudiantes de la Lic. en Inform&aacute;tica UNAM - FESC<br>
+			Barr&oacute;n Alvarez Rodrigo, H'Luz Vidales Manuel Eli&uacute;, Hern&aacute;ndez Dionicio Jorge Adrian, <br>
+			Lira Parada Dalia Ver&oacute;nica, Rojo Garc&iacute;a Diana Teresa<br><br>
+			&copy;Todos los derechos reservados	2013
+		
+	</section>
+</body>
+</html>
