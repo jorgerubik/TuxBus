@@ -1,0 +1,29 @@
+{
+    "version": "1.0",
+    "name": "TuxBus",
+    "description": "App de autobuses",
+    "launch_path": "/index.html",
+    "icons": {
+        "16": "/imgs/bus.png",
+        "48": "/imgs/bus.png",
+        "128": "/imgs/bus.png"
+    },
+    "developer": {
+        "name": "Jorge",
+        "url": ""
+    },
+    "installs_allowed_from": ["*"],
+    "locales": {
+        "en": {
+            "description": "TuxBus, app de autobuses Dev-Jorge",
+            "developer": {
+                "name": "Jorge",
+                "url": ""
+            }
+        }
+    },
+    "default_locale": "es",
+    "permissions": {     
+    },
+    "fullscreen": "true"
+}
